@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import banner1 from '/public/assets/images/banner1.png';
-import banner2 from '/public/assets/images/banner2.png';
+import banner1 from '/assets/images/banner1.png';
+import banner2 from '/assets/images/banner2.png';
 import './Carrossel.css';
 
 function Carrossel() {
