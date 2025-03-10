@@ -3,7 +3,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-image: url('/public/assets/images/fundo.png');
+    background-image: url('/assets/images/fundo.png');
     height: 20vh;
 }
 

@@ -1,7 +1,7 @@
 footer{
     width: 100%;
     height: 220px;
-    background-image: url('/public/assets/images/fundo.png');
+    background-image: url('/assets/images/fundo.png');
     margin-top: 150px;
     padding: 20px;
 }

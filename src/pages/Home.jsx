@@ -1,6 +1,6 @@
 import { FaInstagram, FaWhatsapp, FaBox, FaTag, FaRegSmileBeam, FaBrush, FaPalette, FaEye } from 'react-icons/fa';
 import React, { useState, useEffect } from 'react';
-import img from '/assets/images/kalyn.png'
+import img from '/assets/images/Kalyn.png';
 import './Home.css';
 import '../index.css';
 
@@ -47,7 +47,7 @@ function Home() {
             </div>
 
             <div className="logo">
-                <img src={img} alt="Logo da Kalyn" />
+                <img src={img} alt="Kalyn" />
             </div>
             
 

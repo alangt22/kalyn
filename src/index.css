@@ -9,7 +9,7 @@
 body{
   background-image: 
   linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), 
-  url('/public/assets/images/fundo.png');
+  url('/assets/images/fundo.png');
   z-index: -1;
 
 }
