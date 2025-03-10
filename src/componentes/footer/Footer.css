@@ -1,0 +1,34 @@
+footer{
+    width: 100%;
+    height: 220px;
+    background-image: url('../../images/fundo.png');
+    margin-top: 150px;
+    padding: 20px;
+}
+.icones{
+    margin-top: 80px;
+}
+.rodape{
+    display: flex;
+    justify-content: space-around;
+}
+.img{
+    width: 180px;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    margin-top: 28px;
+    gap: 10px;
+}
+p{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+}
+@media (max-width:450px){
+    footer{
+        width: 100px;
+        min-width: 510px;
+    }
+}

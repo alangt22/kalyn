@@ -1,0 +1,149 @@
+.produto-list {
+width: 100%;
+height: auto;
+padding: 140px;
+}
+
+.nome{
+padding: 10px;
+width: 100%;
+background: linear-gradient(85deg, #f425b6, #ffa7d1);
+height: 90px;
+border-radius: 20px;
+text-align: center;
+margin: 40px auto;
+}
+
+.nome h1{
+font-size: 55px;
+}
+.container-produto {
+width: 100%;
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+
+.produto {
+width: 22%;
+margin-bottom: 20px;
+background-color: white;
+border-radius: 10px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+overflow: hidden;
+text-align: center;
+padding: 10px;
+position: relative;
+}
+
+.produto img {
+width: 100%;
+height: 350px;  
+max-width: 450px;  
+object-fit: cover;  
+border-radius: 10px;
+}
+
+.produto-info {
+padding: 10px;
+text-align: left;
+display: flex;
+flex-direction: column; 
+justify-content: space-between; 
+align-items: center; 
+}
+
+.produto-info h3 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+.produto-info .adicionar-carrinho{
+  background-color: #e700a2;
+  opacity: 0.2;
+  transition: ease-in .4s;
+}
+.produto-info .adicionar-carrinho:hover{
+  opacity: 1;
+}
+
+.produto-info .preco, .produto-info .descricao {
+  font-size: 14px;
+  color: #666;
+  margin: 5px 0;
+}
+
+.produto-info .preco {
+  font-weight: bold;
+  color: #E74C3C; 
+}
+
+.produto-info .descricao {
+  font-style: italic;
+}
+
+.produto-info .preco, .produto-info .descricao {
+  display: flex;
+  align-items: center;
+}
+
+.produto-info .preco svg, .produto-info .descricao svg {
+  margin-right: 5px;
+}
+
+
+.mensagem {
+  background-color: #85005d;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-size: 16px;
+  position: fixed;
+  border-radius: 10px;
+  top: 80px;
+}
+
+
+
+
+@media (max-width:450px){
+  .cart-dropdown{
+    right: 22px;
+    top: 40px;
+    z-index: 9;
+  }
+  .nome{
+    width: 240px;
+    margin-left: 120px;
+
+  }
+  .nome h1{
+    font-size: 40px;
+  }
+  .container-produto{
+    width: 490px;
+
+    display: flex;  
+    flex-direction: row;  
+    justify-content: space-between;
+    flex-wrap: wrap; 
+     gap: 10px;
+  }
+  .produto{
+    width: 240px;  
+    margin-top: 20px; 
+    height: 420px;  
+  }
+  .produto img{
+    height: 250px; 
+    object-fit: cover;  
+  }
+  .produto-list{
+    height: auto;
+    margin-left: -130px;
+  }
+  .mensagem{
+    top: 220px;
+
+  }
+}

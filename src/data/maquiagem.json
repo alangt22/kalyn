@@ -1,0 +1,31 @@
+[
+    {
+      "img": "/assets/maquiagem/espuma.png",
+      "nome": "Espuma de Limpeza",
+      "preco": 40,
+      "categoria": "maquiagem",
+      "descricao": "Limpeza suave para o rosto."
+    },
+    {
+      "img": "/assets/maquiagem/kit.avif",
+      "nome": "Kit Completo de Maquiagem",
+      "preco": 50,
+      "categoria": "maquiagem",
+      "descricao": "Kit completo com todos os produtos essenciais."
+    },
+    {
+      "img": "/assets/maquiagem/kit2.avif",
+      "nome": "Kit de Maquiagem Avançado",
+      "preco": 200,
+      "categoria": "maquiagem",
+      "descricao": "Kit com produtos profissionais."
+    },
+    {
+      "img": "/assets/maquiagem/pincel.png",
+      "nome": "Pincel Profissional",
+      "preco": 30,
+      "categoria": "maquiagem",
+      "descricao": "Pincel de alta qualidade para maquiagem."
+    }
+  ]
+  

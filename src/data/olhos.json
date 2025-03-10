@@ -1,0 +1,31 @@
+[
+    {
+      "img": "/assets/olhos/olho1.webp",
+      "nome": "Máscara de Cílios",
+      "preco": 45,
+      "categoria": "olhos",
+      "descricao": "Máscara para volume e alongamento dos cílios."
+    },
+    {
+      "img": "/assets/olhos/olho2.webp",
+      "nome": "Delineador Líquido",
+      "preco": 55,
+      "categoria": "olhos",
+      "descricao": "Delineador de alta definição, fácil aplicação."
+    },
+    {
+      "img": "/assets/olhos/olho3.webp",
+      "nome": "Sombra Compacta",
+      "preco": 40,
+      "categoria": "olhos",
+      "descricao": "Sombra em pó com acabamento matte e longa duração."
+    },
+    {
+      "img": "/assets/olhos/olho4.webp",
+      "nome": "Lápis para Olhos",
+      "preco": 35,
+      "categoria": "olhos",
+      "descricao": "Lápis para olhos de alta pigmentação e durabilidade."
+    }
+  ]
+  
