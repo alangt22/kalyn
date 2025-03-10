@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 import { FaBox, FaTag, FaRegSmileBeam, FaBrush, FaPalette, FaEye } from 'react-icons/fa';
 import './Nav.css';
 
@@ -29,9 +30,9 @@ function Nav() {
 {/*         <li><a href="/produtos"><FaBox size={20} style={{ marginRight: '8px' }} /> Todos os produtos</a></li>
         <li><a href="/acessorios"><FaTag size={20} style={{ marginRight: '8px' }} /> Acessórios</a></li>
         <li><a href="/cabelo"><FaRegSmileBeam size={20} style={{ marginRight: '8px' }} /> Cabelo</a></li> */}
-        <li><a href="/maquiagem"><FaBrush size={20} style={{ marginRight: '8px' }} /> Maquiagem</a></li>
-{/*         <li><a href="/paleta"><FaPalette size={20} style={{ marginRight: '8px' }} /> Paleta</a></li> */}
-        <li><a href="/olhos"><FaEye size={20} style={{ marginRight: '8px' }} /> Olhos</a></li>
+        <li><Link to="/maquiagem"><FaBrush size={20} style={{ marginRight: '8px' }} /> Maquiagem</Link></li>
+{/*         <li><a to="/paleta"><FaPalette size={20} style={{ marginRight: '8px' }} /> Paleta</a></li> */}
+        <li><Link to="/olhos"><FaEye size={20} style={{ marginRight: '8px' }} /> Olhos</Link></li>
       </ul>
     </nav>
   );
