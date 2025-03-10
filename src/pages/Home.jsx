@@ -59,11 +59,11 @@ function Home() {
 
             <nav className={`menu ${menuOpen ? 'open' : ''}`}>
                 <ul className="menu-list">
-                    <li><a href="/produtos"><FaBox size={50} style={{ marginRight: '8px' }} /> Todos os produtos</a></li>
-                    <li><a href="/acessorios"><FaTag size={50} style={{ marginRight: '8px' }} /> Acessórios</a></li>
-                    <li><a href="/cabelo"><FaRegSmileBeam size={50} style={{ marginRight: '8px' }} /> Cabelo</a></li>
+                    {/* <li><a href="#"><FaBox size={50} style={{ marginRight: '8px' }} /> Todos os produtos</a></li>
+                    <li><a href="#"><FaTag size={50} style={{ marginRight: '8px' }} /> Acessórios</a></li>
+                    <li><a href="#"><FaRegSmileBeam size={50} style={{ marginRight: '8px' }} /> Cabelo</a></li> */}
                     <li><a href="/maquiagem"><FaBrush size={50} style={{ marginRight: '8px' }} /> Maquiagem</a></li>
-                    <li><a href="/paleta"><FaPalette size={50} style={{ marginRight: '8px' }} /> Paleta</a></li>
+                    {/* <li><a href="#"><FaPalette size={50} style={{ marginRight: '8px' }} /> Paleta</a></li> */}
                     <li><a href="/olhos"><FaEye size={50} style={{ marginRight: '8px' }} /> Olhos</a></li>
                 </ul>
             </nav>
