@@ -3,7 +3,7 @@ import Footer from "./componentes/footer/Footer"
 import Nav from "./componentes/nav/Nav"
 import { Outlet, useLocation } from 'react-router-dom';
 import { CarrinhoProvider } from "./context/CarrinhoContext"
-import Home from "./pages/home"
+import Home from "./pages/Home"
 
 function App() {
   const location = useLocation();
