@@ -1,6 +1,6 @@
 import { FaInstagram, FaWhatsapp, FaBox, FaTag, FaRegSmileBeam, FaBrush, FaPalette, FaEye } from 'react-icons/fa';
 import React, { useState, useEffect } from 'react';
-import img from '../images/kalyn.png'
+import img from '/public/assets/images/kalyn.png'
 import './Home.css';
 import '../index.css';
 

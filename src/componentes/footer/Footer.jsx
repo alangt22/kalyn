@@ -1,5 +1,5 @@
 import React from 'react'
-import img from '../../images/Kalyn.png'
+import img from '/public/assets/images/Kalyn.png'
 import { FaInstagram, FaWhatsapp } from 'react-icons/fa';
 import './Footer.css'
 
