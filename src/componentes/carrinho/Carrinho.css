@@ -103,14 +103,14 @@ cursor: pointer;
 background-color: #393838;
 }
 
-
-@media (max-width:450px){
+@media (max-width: 450px) {
   .menu-icon{
-    top: 50px;
+    top: 62px;
     right: 70px;
   }
   .cart-dropdown{
-    right: 60px;
-    top: 40px;
+    top: 50px;
+    right: 50px;
+    width: 350px;
   }
 }

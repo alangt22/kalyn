@@ -97,9 +97,15 @@ button:hover {
   background-color: rgba(0, 0, 0, 0.7); 
 }
 
-@media (max-width:450px){
-  article{
-    margin: 40px;
+
+@media (max-width:450px) {
+  .banner img{
     margin-top: 240px;
+    width: 85%;
+    z-index: 1;
+  }
+  .buttons{
+    top: 600px;
+    padding: 20px;
   }
 }

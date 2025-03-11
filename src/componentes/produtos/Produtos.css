@@ -18,22 +18,22 @@ margin: 40px auto;
 font-size: 55px;
 }
 .container-produto {
-width: 100%;
-display: flex;
-justify-content: space-between;
-flex-wrap: wrap;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .produto {
-width: 22%;
-margin-bottom: 20px;
-background-color: white;
-border-radius: 10px;
-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-overflow: hidden;
-text-align: center;
-padding: 10px;
-position: relative;
+  width: 22%;
+  margin-bottom: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: center;
+  padding: 10px;
+  position: relative;
 }
 
 .produto img {
@@ -104,46 +104,33 @@ align-items: center;
 }
 
 
-
-
-@media (max-width:450px){
-  .cart-dropdown{
-    right: 22px;
-    top: 40px;
-    z-index: 9;
+@media (max-width: 450px) {
+  .produto-list{
+    padding: 20px;
   }
   .nome{
-    width: 240px;
-    margin-left: 120px;
-
+    margin-top: 250px;
+    width: 250px;
   }
   .nome h1{
+    margin-top: 10px;
     font-size: 40px;
   }
   .container-produto{
-    width: 490px;
-
-    display: flex;  
-    flex-direction: row;  
-    justify-content: space-between;
-    flex-wrap: wrap; 
-     gap: 10px;
+    display: flex;
+    flex-direction: column;
   }
   .produto{
-    width: 240px;  
+    width: 100%;  
     margin-top: 20px; 
-    height: 420px;  
+    height: 480px;
   }
   .produto img{
     height: 250px; 
     object-fit: cover;  
   }
-  .produto-list{
-    height: auto;
-    margin-left: -130px;
-  }
   .mensagem{
     top: 220px;
-
+    right: 8px;
   }
 }

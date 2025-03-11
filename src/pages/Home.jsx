@@ -1,5 +1,6 @@
 import { FaInstagram, FaWhatsapp, FaBox, FaTag, FaRegSmileBeam, FaBrush, FaPalette, FaEye } from 'react-icons/fa';
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import img from '/assets/images/Kalyn.png';
 import './Home.css';
 import '../index.css';
@@ -62,9 +63,9 @@ function Home() {
                     {/* <li><a href="#"><FaBox size={50} style={{ marginRight: '8px' }} /> Todos os produtos</a></li>
                     <li><a href="#"><FaTag size={50} style={{ marginRight: '8px' }} /> Acessórios</a></li>
                     <li><a href="#"><FaRegSmileBeam size={50} style={{ marginRight: '8px' }} /> Cabelo</a></li> */}
-                    <li><a href="/maquiagem"><FaBrush size={50} style={{ marginRight: '8px' }} /> Maquiagem</a></li>
-                    {/* <li><a href="#"><FaPalette size={50} style={{ marginRight: '8px' }} /> Paleta</a></li> */}
-                    <li><a href="/olhos"><FaEye size={50} style={{ marginRight: '8px' }} /> Olhos</a></li>
+                    <li><Link to="/maquiagem"><FaBrush size={20} style={{ marginRight: '8px' }} /> Maquiagem</Link></li>
+                    {/* <li><a to="/paleta"><FaPalette size={20} style={{ marginRight: '8px' }} /> Paleta</a></li> */}
+                    <li><Link to="/olhos"><FaEye size={20} style={{ marginRight: '8px' }} /> Olhos</Link></li>
                 </ul>
             </nav>
         </section>
